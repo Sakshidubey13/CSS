@@ -1,0 +1,74 @@
+body {
+  background: #fff;
+  display: flex;
+   background: radial-gradient(circle, rgb(188, 212, 4), rgb(104, 207, 193));
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.colour {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3, auto);
+
+}
+
+.btn {
+  padding: 15px 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+
+
+.btn1 {
+     background: linear-gradient(to right, #26c6ff, #3EE09b);
+     }
+
+.btn2 { 
+    background: linear-gradient(to right,  #f4c25b, #E53E08); 
+}
+
+.btn3 { 
+    background: linear-gradient(to right, #677Ae4, #754DA4);
+ }
+
+.btn4 {
+     background: linear-gradient(to right, #FC6472, #FF9846);
+     }
+
+.btn5 {
+     background: linear-gradient(to right, #0Da462, #39B98F); 
+    }
+
+.btn6 { 
+    background: linear-gradient(to right, #129843, #F2EA22); 
+      } 
+
+.btn7 { 
+    background: linear-gradient(to right, #6351DD,  #842F95);
+ }
+.btn8 {
+     background: linear-gradient(to right, #2C3540, #475462); 
+    }
+
+.btn9 {
+
+     background: linear-gradient(to right, #36d1dc, #5b86e5); 
+    }
+
+.btn10 {
+     background: linear-gradient(to right, #f2709c, #ff9472); 
+    }
+
+.btn11 {
+     background: linear-gradient(to right, #ff416c, #ff4b2b); 
+    }
+
