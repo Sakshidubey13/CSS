@@ -1,4 +1,4 @@
-# OUTPUT OF FLEX PROPERTY
+# 💫OUTPUT OF FLEX-PROPERTY💫
 <img width="1371" height="944" alt="Screenshot 2025-08-17 211714" src="https://github.com/user-attachments/assets/37c3ebde-83d3-43db-bac4-63cc3e8ff4dd" />
 <img width="1377" height="808" alt="Screenshot 2025-08-17 211735" src="https://github.com/user-attachments/assets/7e62b4fc-1aa1-4ea9-ab2d-662269fcebdb" />
 <img width="1370" height="942" alt="Screenshot 2025-08-17 211818" src="https://github.com/user-attachments/assets/0ac9327f-d8b8-4a2b-b053-40c395d693f4" />
