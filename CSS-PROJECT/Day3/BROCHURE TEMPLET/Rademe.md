@@ -1,1 +1,1 @@
-#output
+# OUTPUT OF TEMPLATE 
