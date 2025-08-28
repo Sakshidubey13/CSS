@@ -11,23 +11,31 @@
 <body>
   <div class="header">
     <nav>
+
       <img src="Assets/Images/logo.png" class="logo" alt="logo">
       <div>
-        <button class="language-btn">English
-          <img src="Assets/Images/down-icon.png" alt="down-icon" class="down-icon">
-        </button>
-        <button class="signin-btn">Sign In</button>
+
+        <div class="nav-buttons">
+         <button class="language-btn">
+        <select name="languages" id="languages">
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+         <button class="signin-btn">Sign In</button>
+       </button>
+       
       </div>
     </nav>
+  </div>
 
     <div class="header-content">
       <h1>Unlimited movies, TV shows and more</h1>
       <h2>Starts at ₹149. Cancel at any time.</h2>
       <p>Ready to watch? Enter your email to create or restart your membership.</p>
 
-      <div class="email-signup">
-        <input type="email" placeholder="Email address">
-        <button type="submit">Get Started</button>
+      <div class="main-content-btns">
+        <input type="email" class="email" name="email" id="email"  placeholder=" &nbsp; Email address">
+        <button class="get-started-btn">Get Started</button>
       </div>
 
     </div>
@@ -44,45 +52,46 @@
     <div class="trending-section">
     <h2>Trending Now</h2>
     <div class="trending-cards">
+
+
+      
     <div class="card">
-      <span class="card-rank">1</span>
+     
       <img src="Assets/Images/Wednesday1.jpg" alt="Wednesday">
+      <span class="card-rank"><h1>1</h1></span>
     </div>
 
 
     <div class="card">
-      <span class="card-rank">2</span>
+     
       <img src="Assets/Images/Kapilshow2.jpg" alt="The Great Indian Kapil Show">
+       <span class="card-rank"><h1>2</h1></span>
     </div>
 
 
     <div class="card">
-      <span class="card-rank">3</span>
+      
       <img src="Assets/Images/Raid-2.webp" alt="Raid 2">
+      <span class="card-rank"><h1>3</h1></span>
   </div>
 
 
     <div class="card">
-      <span class="card-rank">4</span>
+      
       <img src="Assets/Images/SquidGame4.jpg" alt="Squid Game">
+      <span class="card-rank"><h1>4</h1></span>
       </div>
 
 
     <div class="card">
-      <span class="card-rank">5</span>
+      <span class="card-rank"><h1>5</h1></span>
       <img src="Assets/Images/SaareJahan5.jpg" alt="Saaf Jahan Acche">
       </div>
-
-      <div class="card">
-      <span class="card-rank">6</span>
-      <img src="Assets/Images/Kapilshow2.jpg" alt="The Great Indian Kapil Show">
-    </div>
-
- </div>
+   </div>
     
-<div class="reasons-section">
-  <h1>More reasons to join</h1>
-  <div class="reasons-cards">
+   <div class="reasons-section">
+      <h1>More reasons to join</h1>
+    <div class="reasons-cards">
 
 
     <div class="reason-card">
@@ -144,55 +153,53 @@
 
     </div>
      <div class="faq-email">
-    <p style="text-align:center; color:#fff; font-size:1.15rem; margin-bottom:18px; font-weight: 700;">
+    <p style="text-align:center; color:#fff; font-size: 20px; margin-bottom:18px; font-weight: 550;">
      Ready to watch? Enter your email to create or restart your membership.
     </p>
-  <form class="email-signup" style="max-width:800px; margin:0 auto 40px auto;">
-    <input type="email" placeholder="Email address" style="flex:1; background:transparent; border:1px solid #333; color:#fff; font-size:1.1rem; padding:18px 16px; border-radius:4px 0 0 4px;">
-    <button type="submit" style="background:#db0001; color:#fff; font-size:1.3rem; font-weight:700; border:none; padding:18px 36px; border-radius:0 4px 4px 0; cursor:pointer;">
-      Get Started <span style="font-size:1.5rem;">&#8250;</span>
-    </button>
-  </form>
+   <div class="main-content-btns2">
+        <input type="email2" class="email" name="email" id="email"  placeholder=" &nbsp; Email address">
+        <button class="get-started-btn2">Get Started</button>
+      </div>
+
 </div>
      
       <footer class="footer">
-         <div class="footer-content">
-       <p class="footer-contact">Questions? Call 
-        <a href="tel:000-800-919-1743">000-800-919-1743</a></p>
-      <div class="footer-links">
-      <ul>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Investor Relations</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Speed Test</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">Help Centre</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Cookie Preferences</a></li>
-        <li><a href="#">Legal Notices</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">Account</a></li>
-        <li><a href="#">Ways to Watch</a></li>
-        <li><a href="#">Corporate Information</a></li>
-        <li><a href="#">Only on Netflix</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">Media Centre</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="footer-lang">
-      <button class="footer-lang-btn">
-        <span>&#127760;</span> English <span><img src="Assets/Images/down-icon.png"</span>
-      </button>
-    </div>
-    <p class="footer-country">Netflix India</p>
-    <p class="footer-note">
-      This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
-    </p>
+         <p class="call"> Questions? Call 000-000-919-1743</p>
+
+         <div class="footer-list">
+              <a href="#">FAQ</a>
+              <a href="#">Investor Relations</a>
+              <a href="#">Privacy</a>
+              <a href="#">Speed Test</a>
+      
+    
+              <a href="#">Help Centre</a>
+              <a href="#">Jobs</a>
+              <a href="#">Cookie Preferences</a>
+               <a href="#">Legal Notices</a>
+    
+    
+                 <a href="#">Account</a>
+                 <a href="#">Ways to Watch</a>
+                 <a href="#">Corporate Information</a>
+                 <a href="#">Only on Netflix</a>
+      
+      
+                   <a href="#">Media Centre</a>
+                   <a href="#">Terms of Use</a>
+               <a href="#">Contact Us</a>
+     
+             </div>
+
+       <button class="language-btn">
+        <select  name="languages" id="languages">
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+       </button>
+
+       <p class="p1">Netflix India </p>
+       <p class="p2">This  page is protected by Google reCAPTCHA  to ensure you're not a bot.<a href="#">Learn more .</a></p>
   </div>
 </footer>
     

@@ -7,14 +7,15 @@
 body{
     background-color: black;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     
 }
 .header{
     width: 100%;
     background-image: url(Assets/netflix-imge.header-image.png);
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Assets/Images/header-image.png);
+    background-image: linear-gradient(rgba(0,0,0,0.8)),url(Assets/Images/header-image.png);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
@@ -22,16 +23,55 @@ body{
 
 }
 
-nav{
+ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .logo{
-    width: 150px;
+    width: 200px;
+    height: 55px;
     cursor: pointer;
 }
+
+.nav-buttons{
+  display: flex;
+  gap: 20;
+}
+.language-btn{
+  width: 130px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  border: 1px solid white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+select{
+  width: 130px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+select option{
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+}
+
 
 nav button{
 
@@ -50,11 +90,6 @@ nav button{
     background: transparent;
     border: 1px solid white;
     padding: 7px 10px;
-}
-
-.language-btn img{
-    width: 10px;
-    margin-left: 10px;
 }
 
 .header-content{
@@ -86,33 +121,84 @@ nav button{
     font-size: 20px;
 }
 
-.email-signup{
-    background: #ffffff ;
-    background-color: rgba(0,0,0,0.8);
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-   
+.email{
+  border-radius: 5px;
+  background: transparent;
+  font-size: 18px;
+  align-items: center;
+  color: #ffffff;
+  width: 366px;
+  font-weight: 500;
+  height: 56px;
+  border: 0.8px solid white;
 }
-.email-signup input{
-    flex: 1;
-    background: transparent;
-    border: 1px solid white;
-    border: 0;
-    outline: 0;
-    margin-left: 20px;
+.email2{
+  border-radius: 5px;
+  background: transparent;
+  font-size: 18px;
+  align-items: center;
+  color: #ffffff;
+  width: 366px;
+  font-weight: 500;
+  height: 56px;
+  border: 0.8px solid white;
 }
 
-.email-signup button{
-    background: #db0001;
-    border: 0;
-    outline: 0;
-    color: #ffffff;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 18px 30px;
+
+.main-content-btns{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
+.main-content-btns2{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.get-started-btn2{
+  padding: 15px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ef0914;
+  color: white;
+  width: 213px;
+  height: 56px;
+  font-weight: 600;
+  font-size: 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started-btn{
+  padding: 15px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ef0914;
+  color: white;
+  width: 213px;
+  height: 56px;
+  font-weight: 600;
+  font-size: 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.get-started-btn:hover{
+  background-color: #c40812;
+}
+.get-started-btn2:hover{
+  background-color: #c40812;
+}
+
+
 
 
 
@@ -165,9 +251,10 @@ nav button{
   padding-bottom: 10px;
 }
 
+
 .card {
   position: relative;
-  width: 220px;
+  width: 250px;
   background: #181818;
   border-radius: 12px;
   overflow: hidden;
@@ -190,16 +277,16 @@ nav button{
 
 .card-rank {
   position: absolute;
-  top: 130px;
-  left: -2px;
-  bottom: 20px;
-  font-size: 5rem;
-  font-weight: 900;
+  top: 195px;
+  left: -4px;
+  bottom: 100px;
+  font-size: 4rem;
 
   color: #000000;
   text-shadow: 1.5px 2px 0px #ffffff;
-  z-index: 1;
+  z-index: 5;
 }
+
 
 /* More reasons to join section */
 .reasons-section {
@@ -256,7 +343,8 @@ nav button{
   bottom: 24px;
   right: 24px;
 }
-/* FAQ Section */
+
+
 .faq-section {
   width: 100%;
   padding: 40px 0;
@@ -334,95 +422,68 @@ nav button{
 }
 
 
-.footer {
-  background: #000;
-  color: #b3b3b3;
- padding-left: 7%;
- margin-top: 30px;
-  font-size: 1rem;
-  font-weight: 900;
-  width: 100%;
-  height: 700px;
-}
-
-.footer-content {
-  margin : 30px;
-}
-
-.footer-contact {
-  margin-bottom: 24px;
-  color: #b3b3b3;
-}
-
-.footer-contact a {
-  color: #b3b3b3;
-  font-weight: 700;
-  font-size: 7pxx;
-
-  text-decoration: underline;
-}
-
-.footer-links {
+.footer{
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-bottom: 24px;
+  flex-direction: column;
+  align-items: center;
+  left: 7%;
+  height: 500px;
+  justify-content: center;
+  background-color: #000;
+  color: rgb(184, 181, 181);
+  position: relative;
 }
 
-.footer-links ul {
-  list-style: none;
-  padding: 40px;
-  gap: 60px;
-  margin: 2px;
+.footer .call{
+  position: absolute;
+  font-size: 18px;
+    top: 30px;
+    left: 10px;
+
 }
 
-.footer-links li {
-  margin-bottom: 16px;
-  width: 150px;
+.footer-list{
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 10fr);
+  gap: 20px;
+  top: 70px;
+  left: 10px;
+  width: 100%;
+  padding-left: 10px;
 }
 
-.footer-links a {
-  color: #b3b3b3;
-  text-decoration: underline;
-  font-size: 1rem;
-  transition: color 0.2s;
+.footer-list a{
+  color: rgb(184, 181, 181);
+  width: 250px;
+  margin-right: 20px;
 }
-
-.footer-links a:hover {
+.footer a:hover {
   color: #fff;
 }
 
-.footer-lang {
-  margin: 24px 0 16px 0;
+.footer .language-btn{
+  position: absolute;
+  left: 10px;
+  top: 270px;
 }
 
-.footer-lang-btn {
-  background: transparent;
-  color: #b3b3b3;
-  border: 1px solid #b3b3b3;
-  border-radius: 4px;
-  padding: 8px 12px;
-  font-size: 1rem;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 20px;
+.footer .p1{
+  position: absolute;
+  top: 340px;
+  left: 10px;
+  color: white;
+
 }
 
-.footer-country {
-  margin-bottom: 16px;
-  color: #b3b3b3;
-  font-weight: bold;
-  bottom: 20px;
+.p2{
+  position: absolute;
+  left: 10px;
+  font-size: 15px;
+  top: 390px;
 }
 
-.footer-note {
-  font-size: 1.4rem;
-  color: #b3b3b3;
+.p2 a{
+  color: skyblue;
 }
 
-.footer-note a {
-  color: #448Ef4;
-  margin: 20px;
-  text-decoration: underline;
-}
