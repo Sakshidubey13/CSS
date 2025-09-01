@@ -1,2 +1,4 @@
 # 💫 Output of Fabric Most Trusted Website 💫
-https://drive.google.com/drive/folders/1eI9STpIk-fkKi9OLmBoYi1OQ767ifiMd
+<hr>
+
+https://drive.google.com/file/d/1KvjUtQfTvizS6MiXavApNK4BCEC7ILMe/view?usp=sharing
